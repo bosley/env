@@ -1,7 +1,7 @@
 
 sudo apt-get update
 
-sudo apt-get install vim guake build-essential htop tmux python3 python3-pip zsh curl wireshark software-properties-common apt-transport-https wget -y
+sudo apt-get install vim guake build-essential htop tmux python3 python3-pip zsh curl wireshark  wget cmake cmake-curses-gui -y
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
