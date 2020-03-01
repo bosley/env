@@ -7,7 +7,7 @@ echo "Starting.."
 
 sudo apt-get update
 
-sudo apt-get install git vim guake build-essential htop tmux python3 python3-pip zsh curl wireshark wget cmake cmake-curses-gui -y
+sudo apt-get install git vim guake build-essential htop tmux python3 python3-pip zsh curl wireshark wget cmake cmake-curses-gui tree -y
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
