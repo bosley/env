@@ -74,6 +74,10 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
         -D BUILD_EXAMPLES=ON ..
 
 
+make -j5
+
+sudo make install
+
 # ----------------------------------------------- End -----------------------------------------------
 
 cd "$cwd"
